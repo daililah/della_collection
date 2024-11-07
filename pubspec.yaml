@@ -1,0 +1,28 @@
+name: della_collection
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  cupertino_icons: ^1.0.6
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/baju/ws_varshall_overall.png
+    - assets/images/gamis/gamis_polos.png
+    - assets/images/baju/expand_depe_blouse.png
+    - assets/images/baju/arthesia_ghasan_brown.png
